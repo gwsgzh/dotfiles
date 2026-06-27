@@ -31,7 +31,9 @@ local function setMasonEnvs(envs)
     table.insert(c, k)
   end
   local fmt = "[env.lua] added %d envs: [%s]. Access with $__mason_ENVNAME."
-  vim.notify(string.format(fmt, #c, table.concat(c, ", "), vim.log.levels.INFO))
+  local msg = string.format(fmt, #c, table.concat(c, ", "))
+  -- vim.notify(msg, vim.log.levels.INFO)
+  print(msg)
 end
 
 setMasonEnvs(envs)

@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/fish
 
 echo "Applying stow..."
 stow .
