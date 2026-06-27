@@ -4,8 +4,8 @@ end
 
 set -U fish_greeting ""
 
-fish_add_path ~/Scripts
-fish_add_path ~/dark-sdk/bin
+set -gx PATH ~/Scripts $PATH
+set -gx PATH ~/dart-sdk/bin $PATH
 
 alias v='nvim'
 alias sv='sudo -E -s nvim'

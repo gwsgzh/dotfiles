@@ -1,0 +1,18 @@
+[general]
+
+import = [
+  "~/.config/alacritty/theme.toml"
+]
+
+live_config_reload = true 
+
+[window]
+startup_mode = "Maximized"
+
+[font]
+normal = { family = "IosevkaTerm NF", style = "regular" }
+
+[terminal] 
+
+shell = "fish"
+

@@ -1,9 +1,17 @@
 #!/bin/fish
 
-echo "Applying stow..."
-stow .
+set dir (realpath (dirname (status filename)))
 
-# TODO: figure out a better way to do this
+echo "Setting stow......"
+
+stow -d $dir -t $HOME .
+
+echo "Stowed."
+
+
+echo "linking root_init.lua -> /root/.config/nvim/init.lua"
 
 sudo mkdir -p "/root/.config/nvim/"
-sudo ln -sf "$PWD/root_init.lua" "/root/.config/nvim/init.lua"
+sudo ln -sf "$dir/root_init.lua" "/root/.config/nvim/init.lua"
+
+echo "Done"
