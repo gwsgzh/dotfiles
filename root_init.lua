@@ -155,3 +155,4 @@ vim.api.nvim_create_autocmd({"TermClose","TermLeave"},{
   pattern = "*",
   command = "set statusline=%!v:lua.Statusline.default()"
 })
+

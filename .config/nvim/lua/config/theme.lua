@@ -1,6 +1,6 @@
-settings = require('settings')
+colorscheme = require('settings').colorscheme
 
-vim.cmd('colorscheme ' .. settings.colorscheme)
+vim.cmd('colorscheme ' .. colorscheme)
 
 vim.o.background = "dark"
 

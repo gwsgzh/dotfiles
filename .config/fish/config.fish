@@ -9,8 +9,12 @@ set -gx PATH ~/dart-sdk/bin $PATH
 
 alias v='nvim'
 alias sv='sudo -E -s nvim'
+
 alias q='exit'
-alias p='xclip -o'
+
+alias xci='xclip -selection clipboard'
+alias xco 'xclip -o'
+
 alias quit='exit'
 alias cx='chmod +x'
 alias gcp='git clone $(xclip -o)'
