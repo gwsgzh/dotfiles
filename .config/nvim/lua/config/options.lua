@@ -1,4 +1,9 @@
 -- Options
+
+vim.cmd('colorscheme qmason')
+vim.o.background = "dark"
+
+
 vim.o.timeoutlen = 1000
 vim.o.backup = true
 vim.o.backupdir = vim.fn.expand("~/.neovim/backups/")

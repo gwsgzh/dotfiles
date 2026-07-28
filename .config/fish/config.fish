@@ -21,3 +21,5 @@ alias gcp='git clone $(xclip -o)'
 alias b='nautilus .'
 alias br='nautilus admin:/.'
 alias c='clear'
+
+eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv fish)

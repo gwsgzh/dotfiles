@@ -5,7 +5,6 @@ local modules =
   "mappings",
   "statusline",
   "terminal",
-  "theme"
 }
 
 for _, module in ipairs(modules) do
