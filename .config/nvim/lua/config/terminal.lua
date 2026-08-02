@@ -8,8 +8,6 @@ if vim.fn.has("win64") == 1 then
   let &shellpipe    = '| Out-File -Encoding UTF8 %s'
   let &shellredir   = '| Out-File -Encoding UTF8 %s'
   ]]
-else 
-  vim.o.shell = "fish"
 end
 
 -- Terminal mode escape
