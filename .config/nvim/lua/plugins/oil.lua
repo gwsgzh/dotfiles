@@ -11,6 +11,9 @@ return {
   end,
   config = function()
     require("oil").setup{
+      columns = {
+        icon = false
+      },
       default_file_explorer = true,
       delete_to_trash = true,
       view_options = {
