@@ -1,0 +1,7 @@
+#!/bin/bash
+
+SP=$(dirname "$(realpath "${BASH_SOURCE[0]}")")
+
+stow -d "${SP}" -t "$HOME" gwsgzh
+
+echo "Stowed...."

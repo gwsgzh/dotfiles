@@ -1,0 +1,5 @@
+{
+    "gwsgzh/.config/nvim": "$LOCALAPPDATA/nvim",
+    "windows/alacritty": "$APPDATA/alacritty",
+    "windows/config.yaml": "$LOCALAPPDATA/organize/organize/config.yaml"
+}
